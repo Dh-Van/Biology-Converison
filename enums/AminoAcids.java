@@ -1,7 +1,5 @@
 package enums;
 
-import javafx.scene.paint.Stop;
-
 public enum AminoAcids {
     Met, Phe, Leu, Ser, Tyr, Cys, Trp, Pro, His, Gln, Arg, Ile, Thr, Asn, Lys, Val, Ala, Asp, Glu, Gly, Stop;
 

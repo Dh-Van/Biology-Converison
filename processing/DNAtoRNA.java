@@ -25,5 +25,7 @@ public class DNAtoRNA {
 
         reader.close();
         writer.close();
+
+        RNAAMINO.main(null);
     }
 }
