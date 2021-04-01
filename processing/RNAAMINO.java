@@ -21,12 +21,16 @@ public class RNAAMINO {
         FileWriter writer = new FileWriter(output);
 
         String codon = "";
+        String aa = "";
+        String convert;
         int index = 0;
         //TAKE SUBSTRING TO PREVENT ISSUES
         while (reader.hasNext()) {
             codon += reader.next();
             if(codon.substring(index, codon.length()-1).length() == 2){
+                //Problem with codon.lenght() // passes in whole codon, need to only pass in 3 indexes
                 System.out.println(codon.substring(index, codon.length()));
+                aa = AminoAcids.valueOf("Phe").convert(codon);
                 writer.write(AminoAcids.valueOf("Phe").convert(codon));
                 index += 3;
             }

@@ -59,133 +59,133 @@ public enum AminoAcids {
     public String convert(String codon){
 
             switch (codon) {
-                case "U U U":
+                case "UUU":
                     return Phe.toString();
-                case "U U C":
+                case "UUC":
                     return Phe.toString();
-                case "U U A":
+                case "UUA":
                     return Leu.toString();
-                case "U U G":
+                case "UUG":
                     return Leu.toString();
-                case "U C U":
+                case "UCU":
                     return Ser.toString();
-                case "U C C":
+                case "UCC":
                     return Ser.toString();
-                case "U C A":
+                case "UCA":
                     return Ser.toString();
-                case "U C G":
+                case "UCG":
                     return Ser.toString();
-                case "U A U":
+                case "UAU":
                     return Tyr.toString();
-                case "U A C":
+                case "UAC":
                     return Tyr.toString();
-                case "U A A":
+                case "UAA":
                     return Stop.toString();
-                case "U A G":
+                case "UAG":
                     return Stop.toString();
-                case "U G U":
+                case "UGU":
                     return Cys.toString();
-                case "U G C":
+                case "UGC":
                     return Cys.toString();
-                case "U G A":
+                case "UGA":
                     return Stop.toString();
-                case "U G G":
+                case "UGG":
                     return Trp.toString();
-                case "C U U":
+                case "CUU":
                     return Leu.toString();
-                case "C U C":
+                case "CUC":
                     return Leu.toString();
-                case "C U A":
+                case "CUA":
                     return Leu.toString();
-                case "C U G":
+                case "CUG":
                     return Leu.toString();
-                case "C C U":
+                case "CCU":
                     return Pro.toString();
-                case "C C C":
+                case "CCC":
                     return Pro.toString();
-                case "C C A":
+                case "CCA":
                     return Pro.toString();
-                case "C C G":
+                case "CCG":
                     return Pro.toString();
-                case "C A U":
+                case "CAU":
                     return His.toString();
-                case "C A C":
+                case "CAC":
                     return His.toString();
-                case "C A A":
+                case "CAA":
                     return Gln.toString();
-                case "C A G":
+                case "CAG":
                     return Gln.toString();
-                case "C G U":
+                case "CGU":
                     return Arg.toString();
-                case "C G C":
+                case "CGC":
                     return Arg.toString();
-                case "C G A":
+                case "CGA":
                     return Arg.toString();
-                case "C G G":
+                case "CGG":
                     return Arg.toString();
-                case "A U U":
+                case "AUU":
                     return Ile.toString();
-                case "A U C":
+                case "AUC":
                     return Ile.toString();
-                case "A U A":
+                case "AUA":
                     return Met.toString();
-                case "A U G":
+                case "AUG":
                     return Met.toString();
-                case "A C U":
+                case "ACU":
                     return Thr.toString();
-                case "A C C":
+                case "ACC":
                     return Thr.toString();
-                case "A C A":
+                case "ACA":
                     return Thr.toString();
-                case "A C G":
+                case "ACG":
                     return Thr.toString();
-                case "A A U":
+                case "AAU":
                     return Asn.toString();
-                case "A A C":
+                case "AAC":
                     return Asn.toString();
-                case "A A A":
+                case "AAA":
                     return Lys.toString();
-                case "A A G":
+                case "AAG":
                     return Lys.toString();
-                case "A G U":
+                case "AGU":
                     return Ser.toString();
-                case "A G C":
+                case "AGC":
                     return Ser.toString();
-                case "A G A":
+                case "AGA":
                     return Arg.toString();
-                case "A G G":
+                case "AGG":
                     return Arg.toString();
-                case "G U U":
+                case "GUU":
                     return Val.toString();
-                case "G U C":
+                case "GUC":
                     return Val.toString();
-                case "G U A":
+                case "GUA":
                     return Val.toString();
-                case "G U G":
+                case "GUG":
                     return Val.toString();
-                case "G C U":
+                case "GCU":
                     return Ala.toString();
-                case "G C C":
+                case "GCC":
                     return Ala.toString();
-                case "G C A":
+                case "GCA":
                     return Ala.toString();
-                case "G C G":
+                case "GCG":
                     return Ala.toString();
-                case "G A U":
+                case "GAU":
                     return Asp.toString();
-                case "G A C":
+                case "GAC":
                     return Asp.toString();
-                case "G A A":
+                case "GAA":
                     return Glu.toString();
-                case "G A G":
+                case "GAG":
                     return Glu.toString();
-                case "G G U":
+                case "GGU":
                     return Gly.toString();
-                case "G G C":
+                case "GGC":
                     return Gly.toString();
-                case "G G A":
+                case "GGA":
                     return Gly.toString();
-                case "G G G":
+                case "GGG":
                     return Gly.toString();
                default:
                    return "null";
